@@ -12,6 +12,7 @@ def register(username, password, check_password):
         print("Пароли не совпадают")
 
 answer = register("testname123", "password123", "password123")
+
 def check_code(guess, answer):
     if answer == guess:
         print("Все успешно, Добро пожаловать!")
